@@ -23,7 +23,7 @@ const AppHeader = ({ text }: Props) => {
 
     const dateTime = date + " " + time;
 
-    return "WriteitUp " + dateTime + ".txt";
+    return "WriteitUp " + dateTime + ".md";
   };
 
   const downloadTxtFile = () => {

@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+## Write it up
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Write it up is a project created to take easy notes in markdown and print it out as a document to have it handy.
 
-## Available Scripts
+### Hosting
 
-In the project directory, you can run:
+Write it up is currently hosted at [writeitup.netlify.app](https://writeitup.netlify.app/).
 
-### `npm start`
+### Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open the app, Just type on the left pane, you'll see the rendered output on the right side. Click on `TEXT` button on the top to download a .md file as text, or click on `PDF` to fetch a pdf of the rendered page
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Supported Features
 
-### `npm test`
+- [x] Supports markdown conversion into a rendered document. You can see the document in the right pane updating live as you type something.
+- [x] Supports immediate download of your markdown file as a .md file.
+- [x] Supports downloading the rendered output as a pdf.
+- [x] Supports adding headings, lists, checklist, ~strikethrough~ , **Bold**, _italic_, `code blocks`, [links](https://writeitup.netlify.app/), dividers, images, footnotes, blockquotes and regular markdown stuff
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Currently Unsupported
 
-### `npm run build`
+- [ ] We currently doesn't support emojis.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Raise an issue if you are thinking of adding a new feature addition. If it's feasible, send a PR over and let's review it.
